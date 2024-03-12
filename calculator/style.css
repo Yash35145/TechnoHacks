@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.calculator {
+    position: relative; /* Set position relative for absolute positioning of dark mode toggle */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .dark-mode-toggle {
+    position: absolute;
+    top: -3rem;
+    left: 8rem;
+    color: #fff;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #darkModeToggle {
+    display: none; /* Hide the checkbox */
+  }
+  
+  #display {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  #display:focus {
+    outline: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+  
+  .dark-mode #display {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .dark-mode .calculator {
+    background-color: #333;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark-mode button {
+    background-color: #666;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .calculator {
+      max-width: 85%; /* Adjust maximum width for smaller screens */
+      height: 20rem;
+    }
+  
+    button {
+      font-size: 1rem; /* Decrease font size of buttons for smaller screens */
+      padding: 10px; /* Decrease padding of buttons for smaller screens */
+    }
+  }

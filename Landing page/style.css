@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border : border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-image: linear-gradient(135deg,#82F4B1,#30C67C);
+}
+
+body{
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+/* header starts */
+.navbar{
+    height: 6rem;
+    background-color: white;
+    opacity: .96;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    height: 5.6rem;
+    width: 10vw;
+    display: inline-block;
+    background-image: url(img/markmedia-logo_main.png);
+    background-size: cover;
+    cursor: pointer;
+    
+}
+
+.contact-information{
+    /* margin-top: .2rem;
+    margin-left: 4rem; */
+    height: 5.6rem;
+    width: 20rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.twitter{
+    height: 5rem;
+    width: 10rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .2rem solid transparent;
+    color:rgb(30, 48, 80);
+    cursor:pointer;
+}
+.instagram{
+    height: 5rem;
+    width: 10rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:.2rem  solid transparent;
+    color:rgb(30, 48, 80);
+    cursor:pointer;
+}
+.facebook{
+    height: 5rem;
+    width: 10rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:.2rem  solid transparent;
+    color:rgb(30, 48, 80);
+    cursor:pointer;
+}
+.youtube{
+    height: 5rem;
+    width: 10rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .2rem solid transparent;
+    color:rgb(30, 48, 80);
+    cursor:pointer;
+}
+.border-logo:hover{
+    border: .2rem solid rgb(30, 48, 80);
+    border-radius: 8%;
+}
+
+.button{
+    height: 5rem;
+    width: 10rem;
+    /* margin-top: .25rem;
+    margin-left: 4rem; */
+    border:.2rem solid transparent;
+    color: darkgreen;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.border:hover{
+    border:.2rem solid darkgreen;
+    border-radius: 4%;
+}
+
+.enquire-now{
+    height: 5rem;
+    width: 18rem;
+    border:.2rem solid transparent;
+    color: rgb(30, 48, 80);
+    font-size: 2.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.enquire-border:hover{
+    background-color:#82F4B1;
+    border:.2rem solid rgb(30, 48, 80);
+    border-radius: 4%;
+}
+/* header end */
+
+/* main body starts */
+.first-slide{
+    height: 50rem;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-slide-image{
+    height: 40rem;
+    width: 40%;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+.first-slide-content{
+    height: 50rem;
+    width: 50%;
+    background-color: white;    
+}
+
+.top-line{
+    color: rgb(30, 48, 80);
+    font-size: 4rem;
+    height: 6rem;
+    width: 70%;
+    margin-top: 3rem;
+    margin-left: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image{
+    height: 30rem;
+
+}
+
+.brand-image{
+    height: 30rem;
+    display: flex;
+    margin-left: 22rem;
+}
+
+.bottom-line{
+    margin-left: 5rem;
+    height: 10rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(30, 48, 80);
+    font-weight: bolder;
+}
+
+
+.second-slide{
+    height: 50rem;
+    background-color: white;
+    display: flex;
+    opacity: 0.97;
+}
+
+.second-slide-box-1{
+    height: 40rem;
+    width: 40%;
+    background-image: url(img/marketing_image.jpg);
+    background-size: cover;
+    display: flex;
+    margin-top: 4rem;
+    margin-left:4rem ;
+}
+
+.second-slide-box-2{
+    height: 40rem;
+    width: 48%;
+    font-size: 1.8rem;
+    text-align: center;
+    display: flex;
+    color: rgb(30, 48, 80);
+    align-items: center;
+    margin-top: 4rem;
+    margin-left:4rem ;
+
+}
+
+.slide-heading{
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    color: darkgreen;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.third-slide{
+    height: 70rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box-1{
+    height: 70rem;
+    width: 33%;
+    opacity: .95;
+    background-color: white;
+}
+
+.box-2{
+    height: 70rem;
+    width: 33%;
+    opacity: .95;
+    background-color: white;
+}
+
+.box-3{
+    height: 70rem;
+    width: 33%;
+    opacity: .95;
+    background-color: white;
+}
+
+h4{
+    color: darkgreen; 
+    display: flex; 
+    justify-content: center;
+     margin-top: 3rem; 
+    font-size: 2.5rem; 
+    text-decoration: underline;
+}
+
+.box-image{
+    text-align: center;
+    margin-left: 14rem;
+    margin-top: 10vh;
+    height: 20rem;
+    opacity: 1;
+
+}
+
+.box-content{
+    font-size: 1.8rem;
+    color: rgb(30, 48, 80) ;
+    margin-left: 1.5vw;
+    display: flex;
+    text-align: center;
+    width: 90%;
+}
+
+.fourth-slide{
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fourth-slide-box-1{
+    height: 40vh;
+    width: 30vw;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    background-image: url(img/contact_us.jpg);
+    background-size: cover;
+}
+
+.fourth-slide-box-2{
+    height: 50vh;
+    width: 40vw;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(30, 48, 80);
+    border: .4rem solid #30C67C;
+    border-radius: 5%;
+    display: inline-block;
+}
+
+.box{
+    margin-top: 7vh;
+    border: .25vw solid rgb(30, 48, 80);
+    height: 4vh;
+    width: 50%;
+    border-radius: 3%;
+
+}
+.submit-button{
+    color: rgb(30, 48, 80);
+    border: .3rem solid rgb(30, 48, 80);
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 7%;
+    height: 8vh;
+    width: 9vw;
+    background-color: #30C67C;
+}
+
+.space-div{
+    height: .3rem;
+}
+/* main body ends */
+
+/* footer starts */
+.footbar{
+    height: 6rem;
+    background-color: white;
+}
+
+.owner-information{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: rgb(30, 48, 80);
+}
+
+/* footer ends */
+
+
+/* media queries */
+
+@media(min-width:250px) and (max-width:501px){
+    .html{
+        font-size: 40%;
+    }
+    .navbar{
+        height: 5rem;
+    }
+
+    .logo{
+        height: 5.8vh;
+        width: 50vw;
+        margin-left: 3vw;
+    }
+    
+    .button{
+        display: none;
+    }
+
+    .twitter{
+        display: none;
+    }
+
+    .instagram{
+        display: none;
+    }
+    .facebook{
+        display: none;
+    }
+    .youtube{
+        display: none;
+    }
+
+    .enquire-now{
+        height: 4vh;
+        width: 50vw;
+        margin-right: 2vw;
+        font-size: 4vw;
+    }
+
+    /* first slide */
+    .first-slide{
+        height: 70vh;
+        width: 100%;
+        display: flex ;
+        flex-wrap: wrap;
+    }
+
+    .first-slide-content{   
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .top-line{
+        font-size: 8vw;
+        height: 5vh;
+        width:100%;
+        margin: 0;
+        margin-top: 4vh;
+    }
+    
+    .main-image{
+        margin: 0;
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .brand-image{
+        margin: 0;
+        height: 15vh;
+        cursor: pointer;
+    }
+    
+    .bottom-line{
+        margin: 0;
+        height: 5vh;
+        width: 99%;
+        font-size: 1.3vh;
+    }
+    
+    .first-slide-image{
+        height: 20vh;
+        width: 60%;
+        margin-top: 0;
+        margin-left: 10vh;
+        border: .2vh solid #30C67C;
+        border-radius: 2%;
+    }
+    
+    .slide-heading{
+        height: 5vh;
+        font-size: 2vh;
+    }
+
+    .space-div{
+        height: .2vh;
+    }
+    
+
+    
+    .second-slide{
+        height: 80vh;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.97;
+    }
+    
+    .second-slide-box-1{
+        height: 30vh;
+        width: 100%;
+    }
+    
+    .second-slide-box-2{
+        height: 40vh;
+        width: 90%;
+        font-size: 1.3vh;
+        text-align: center;    
+        margin: 0;
+        margin-left: 5vw;
+    }
+        
+
+    .third-slide{
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    h4{
+        font-size: 1.2vh;
+    }
+
+    .box-1{
+        height: 50vh;
+        width: 33%;
+        opacity: .95;
+        background-color: white;
+    }
+    
+    .box-2{
+        height: 50vh;
+        width: 33%;
+        opacity: .95;
+        background-color: white;
+    }
+    
+    .box-3{
+        height: 50vh;
+        width: 33%;
+        opacity: .95;
+        background-color: white;
+    }
+    
+    .box-image{
+        height: 10vh;
+        margin: 0;
+        margin-top: 3vh;
+        margin-left: 1.5vh;
+    }
+    
+    .box-content{
+        font-size: .98vh;
+    }
+    
+    .footbar{
+        height: 5vh;
+        background-color: white;
+    }
+    
+    .owner-information{
+        height: 5vh;
+        font-size: 1.2vh;
+    }
+
+    .fourth-slide{
+        height: 80vh;
+        }
+    
+    .fourth-slide-box-1{
+        height: 30vh;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .fourth-slide-box-2{
+        height: 40vh;
+        width: 90%;
+        margin: 0;
+        margin-left: 2vh;
+        font-size: 1.5vh;
+        border: .3vh solid #30C67C;
+    }
+    
+    .box{
+        height: 3vh;
+        width: 70%;
+        margin-top: 5vh;
+    
+    }
+    .submit-button{
+        margin-top: 2vh;
+        font-size: 1.5vh;
+        height: 5vh;
+        width: 30%;
+    }
+    
+}
